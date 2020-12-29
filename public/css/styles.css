@@ -1,2 +1,26 @@
 .navbar {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin-left: 10px;
+}
+
+li:hover {
+  border: solid blue 1px;
+}
+
+a:active {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
 }
